@@ -4,7 +4,7 @@ FROM openjdk:11
 #working directory whrere all work will be kept
 WORKDIR app/
 
-#copy the app to th current directory of container
+#copy the app to the current directory of container
 COPY Hello.java .
 
 #compile code
